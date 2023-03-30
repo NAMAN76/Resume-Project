@@ -1,0 +1,290 @@
+body{
+    margin:0px;
+}
+
+/*body-header*/
+
+#header{
+    height:75vh;
+    background-image:url(shutterstock_563430904-2560x852.webp) ;
+    
+     opacity:0.9;
+     background-position: center;
+     background-attachment:fixed;
+     background-repeat: no-repeat;
+     background-size:cover;
+    
+  
+  
+}
+
+/*list*/
+
+.horizontal-list{
+list-style: none;
+margin:0px;
+padding:0px;
+
+text-align: center;
+
+
+}
+.horizontal-list li{
+    display:inline-block;
+    margin:10px 30px 0px 30px;
+  
+
+}
+ .horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 25px;
+    
+}
+.nav .horizontal-list li a{
+    border:2px solid white;
+    border-radius: 20px;
+    padding:4px;
+}
+.horizontal-list li a:hover{
+
+color:bisque;
+
+
+}
+.nav .horizontal-list li a:hover{
+    border:1px solid bisque ;
+    padding:4px;
+    box-shadow: 0px 0px 6px 4px bisque ;
+   
+}
+.centerallign{
+    text-align: center;
+}
+mynamec{
+
+    height:100px;
+    width:800px;
+
+}
+
+#myname{
+
+    text-align:center;
+    font-style: italic;
+    font-size:90px ;
+    color:rgb(233, 229, 230);
+     margin-top:80px ;
+     
+
+}
+
+#link{
+
+margin-top: -50px;
+
+}
+#link .horizontal-list li a i:hover{
+padding:4px;
+box-shadow: 0px 0px 6px 4px bisque;
+border-radius: 20px;
+
+
+}
+#about{
+height:auto;
+width:100%;
+position: relative;
+
+
+}
+#my-image{
+
+    height:18rem;
+    width:18rem;
+   margin: auto;
+  margin-top :-25vh; ;
+
+}
+#my-image img{
+ 
+    height:100%;
+    width:100%;
+    border-radius: 250px;
+    box-shadow: 0px 0px 6px 4px rgb(56, 35, 35);
+
+}
+#intro{
+margin-left:40px;
+margin-right:40px;
+}
+
+#intro p{
+padding:40px;
+margin-top:-20px;
+margin-left:40px;
+margin-right:40px ;
+font-size:40px ;
+font-style: italic;
+}
+
+#skills{
+background-color:lightgrey;
+height:450px;
+width:100%;
+padding:20px;
+
+}
+#skills #heading h1 {
+    color:blue;
+    
+   text-align: center;
+    font-size:40px ;
+
+}
+#skills .horizontal-list li{
+
+    color:black;
+    font-size:20px ;
+    font-style: italic;
+    font-weight: bolder;
+   padding:8px;
+}
+#skills .horizontal-list img{
+
+height:100px;
+width:100px;
+padding:8px;
+margin:8px;
+}
+#skills #second img{
+
+    height:90px;
+    width:90px;
+    padding:8px;
+    margin:6px;
+    margin-bottom: 8px;
+}
+#education{
+
+    padding:4px;
+   position: relative;
+}
+
+#education #eheading h1{
+    color:blue;
+    font-size: 40px;
+    
+    text-align: center;
+}
+#education #class10 img{
+height:150px;
+width:150px;
+margin-left: 180px;
+
+padding:6px;
+}
+#education div #tend{
+   margin-top:-120px;
+  margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+   position: relative;
+}
+#education #class10 div{
+
+
+    position: relative;
+}
+#education #class10 div{
+    position:relative;
+}
+
+#education #class12 div img{
+    height:150px;
+    width:150px;
+    margin-left: 980px;
+    margin-top:80px;
+    padding:6px;
+
+}
+#education div #twed{
+    margin-top:-120px;
+   margin-left: 740px;
+     font-size: 20px;
+     font-weight: bold;
+    position: relative;
+ }
+ #education #IIT img{
+    height:150px;
+    width:150px;
+    margin-left: 180px;
+    margin-top:80px;
+    padding:6px;
+    }
+    #education div #IITD{
+        margin-top:-100px;
+       margin-left: 400px;
+         font-size: 20px;
+         font-weight: bold;
+        position: relative;
+     }
+     #contact{
+    
+        height:75vh;
+        width:100vw;
+        background-image: linear-gradient(30deg,rgb(53, 53, 109),rgb(88, 10, 233) 120%);
+        
+    
+    }
+    #c-header{
+    
+        color:white;
+        font-size: 30px;
+        font-style: italic;
+        text-align: center;
+        margin-top:100px;
+        
+    }
+    #c-form{
+    margin-top:80px ;
+    margin-left: 60px;
+    padding:4px;
+    text-align: center;
+    }
+    #c-form label{
+    
+        color:white;
+        font-style: italic;
+       font-weight: bolder;
+         font-size: large;
+    
+    }
+    #c-form input{
+         
+        height:25px;
+        border-radius: 30px;
+        border:2px solid #ec0a68; 
+    
+    
+    }
+    
+    
+    button[type="submit"]{
+    height:40px;    
+    background-color:#ec0a68 ;
+    border-radius: 50px;
+    margin:20px;
+    padding:4px;
+    
+    }
+    button{
+    
+    background-color: white;
+    font-style: italic;
+    font-weight: 900;
+    }
+    
+    
+     
